@@ -1,0 +1,64 @@
+body {
+    background: url('bg.gif');
+    color: #fff;
+}
+
+#header {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#header img {
+    width: 40%;
+}
+
+.controls {
+    width: 40%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.controls p {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.controls form {
+    width: 25%;
+    margin: 0 auto;
+}
+
+.controls form input { 
+    padding: 2%;
+    border-radius: 3px;
+}
+
+.controls form input[type='submit'] { 
+    width: 96%;
+}
+
+.controls form input[type='number'] { 
+    width: 92%;
+}
+
+.move {
+    margin-left: 18%;
+}
+.copy {
+    float: right;
+    cursor: pointer;
+    color: #21c14b;
+}
+
+#data {
+    display: none;
+    width: 55%;
+    margin: 1% auto;
+    background: #fff;
+    color: #000;
+    padding: 1%;
+    border-radius: 2px;
+    text-align: justify;
+
+}

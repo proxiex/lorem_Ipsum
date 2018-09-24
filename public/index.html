@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lorem Ipsium Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <img src="logo.png" alt="logo">
+        </div>
+        <div class="controls">
+            <p>Specify the number of paragraphs, words or list of text you would like to generate.</p>
+            <form method="POST" id="controles">
+                <div class="label">
+                    <input type="number" id="number" value="5" min="1" max="50" name="number" id="">
+                    <label for="number"></label>
+                </div>
+                <div class="move">
+                    <div class="label">
+                        <input type="radio" id="paragraph" required value="paragraph" name="type" id="">
+                        <label for="paragraph">Paragraph</label>
+                    </div>
+                    <div class="label">
+                        <input type="radio" id="list" required value="list" name="type" id="">
+                        <label for="list">List</label>
+                    </div>
+                </div>
+                <div class="label">
+                    <input type="submit" value="Generate Text">
+                </div>
+            </form>
+        </div>
+        <div id="data">
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

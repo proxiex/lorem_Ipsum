@@ -1,0 +1,20 @@
+{
+  "name": "lorem_ipsum",
+  "version": "1.0.0",
+  "description": "a simple text generator app in pure node js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/proxiex/lorem_Ipsum.git"
+  },
+  "author": "Proxie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/proxiex/lorem_Ipsum/issues"
+  },
+  "homepage": "https://github.com/proxiex/lorem_Ipsum#readme"
+}
